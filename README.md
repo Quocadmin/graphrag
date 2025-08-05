@@ -74,3 +74,45 @@ Any use of third-party trademarks or logos are subject to those third-party's po
 ## Privacy
 
 [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement)
+
+
+GraphRAG là gì?
+GraphRAG là một dự án mã nguồn mở của Microsoft, nhằm giúp các mô hình ngôn ngữ lớn (LLM – như ChatGPT, GPT-4…) hiểu và làm việc tốt hơn với dữ liệu văn bản tự do (unstructured text), ví dụ: email, báo cáo, tài liệu Word, ghi chú, v.v.
+
+Thay vì chỉ trả lời dựa trên nội dung "thô", GraphRAG chuyển đổi dữ liệu văn bản này thành các cấu trúc dữ liệu dạng đồ thị tri thức (knowledge graph). Nhờ vậy, LLM sẽ dễ dàng tra cứu, phân tích và suy luận logic trên dữ liệu riêng của bạn.
+
+Ứng dụng thực tế
+Nếu bạn có một đống tài liệu và muốn dùng AI để tìm hiểu thông tin, đặt câu hỏi phức tạp, hoặc kết nối các dữ kiện lại với nhau, GraphRAG sẽ giúp bạn biến dữ liệu rời rạc thành một mạng lưới tri thức có thể tra cứu.
+
+Ví dụ: Tìm các mối liên hệ giữa người – sự kiện – công ty trong hàng trăm trang tài liệu.
+
+Cách hoạt động cơ bản
+Nhập dữ liệu: Bạn đưa tài liệu vào hệ thống (file, text, v.v).
+
+Trích xuất thông tin: GraphRAG dùng AI để phân tích văn bản, xác định các thực thể (người, tổ chức, sự kiện...) và mối quan hệ giữa chúng.
+
+Xây dựng đồ thị tri thức: Dữ liệu này được tổ chức thành dạng "đồ thị" (nodes và edges), dễ dàng truy vấn và phân tích.
+
+Tích hợp với LLM: Khi bạn hỏi AI, nó sẽ tham chiếu lên đồ thị tri thức này, giúp trả lời chính xác, logic và có dẫn chứng rõ ràng hơn.
+
+Những điều cần lưu ý khi mới bắt đầu
+Cài đặt nhanh: Có hướng dẫn quickstart để cài đặt và chạy thử bằng dòng lệnh.
+
+Tài liệu: Đọc thêm tại Read the docs.
+
+Lưu ý về chi phí: Việc index (phân tích và chuyển đổi dữ liệu) có thể tốn nhiều tài nguyên máy tính và thời gian, nhất là với dữ liệu lớn.
+
+Hiệu quả sử dụng: Nếu muốn AI trả lời tốt hơn, nên tùy chỉnh prompt (hướng dẫn AI), theo hướng dẫn prompt tuning.
+
+Phiên bản: Khi cập nhật phiên bản mới, nên làm theo hướng dẫn để tránh lỗi về cấu hình.
+
+Trách nhiệm AI: Có tài liệu về AI minh bạch và có trách nhiệm.
+
+Tóm tắt ngắn gọn
+GraphRAG = "Đồ thị hóa dữ liệu văn bản + AI trả lời thông minh".
+
+Dễ dàng trích xuất kiến thức từ dữ liệu riêng tư, phức tạp.
+
+Hữu ích cho ai muốn xây dựng hệ thống hỏi đáp thông minh trên dữ liệu của doanh nghiệp/cá nhân.
+
+Nếu bạn là người mới, hãy thử chạy demo nhỏ trước, đọc tài liệu và trao đổi trong mục Discussion trên GitHub repo để học hỏi thêm!
